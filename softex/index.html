@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade</title>
+    <style>
+       
+        legend {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        fieldset {
+            border-radius: 5px;
+            border-color: #c2cbce;
+            box-shadow: #c2cbce;
+            color: white;
+        }
+        
+        .row {
+            color: white;
+        }
+        
+        label:not([for="lSim"], [for="lNão"]) {
+            display: inline-block;
+            width: 120px;
+            color: black;
+        }
+        
+        input {
+            padding: 2px;
+            margin: 5px;
+            background-color: white;
+            ;
+        }
+        
+        input[id="lname"],
+      
+        input[id="lemail"] {
+            width: 200px;
+            border: none;
+            border-bottom: 2px solid #c2cbce;
+        }
+        body{
+            background-color: rgb(6, 240, 150);
+        }
+    </style>
+</head>
+<body>
+    <b><h1>Atividade separação de dados</h1></b>
+    <hr>
+    <p>Mais uma noite como todas as anteriores. Pego minha caneca de café cheia, acendo meu ultimo cigarro e corro pra velha janela do quarto. Observo a noite fria e chuvosa, até parece confortável por um momento, se não fossem as dezenas de preocupações que me desmotivam a cada dia.</p>
+    <hr>
+     <p>Não sei o que aconteceu, só seu que tu me prendeu. E prendeu de uma maneira estranha, como quando a gente ama.  
+
+        Mas tu mal sabe ou talvez nunca saiba, mas te guardei aqui dentro e menina, tu faz falta.
+        
+        Mas que falta é esse? Eu te vi apenas uma vez, acho que tô perdendo a cabeça, o que foi isso que você me fez?
+        
+        Menina, não sei mais o que escrever, não pretendia fazer esse texto mas tu fez por merecer.
+        </p>
+        <hr>
+        <img src="naturezza.jpeg.jpg" width="400px" heigth="280px"><b><figcaption>Tudo é muito lindo</figcaption></b>
+     <img src="paisagem.jpeg.avif" width="400px" heegth="280px"> <b><figcaption>Natureza é muito bela</figcaption></b>
+    <b><h2>formulário de inscrição</h2></b>
+
+    <p>Faça um formulario de inscrição aqui</p>
+
+    <form>
+        <fieldset>
+
+            <legend>Dados pessoais</legend>
+            <div class="row">
+                <label for="Iname">Seu nome</label> 
+                <input type="text" id="iname">
+            </div>
+            <div class="row">
+            <label for="Iname">Email </label>
+            <input type="text" id="iname">
+        </div>
+        <div class="row">
+            <label for="idtnasc">Data de nascimento</label>
+            <input type="date" id="idtnasc">
+        </div>
+        <div class="row">
+            <button type="button" onclick="alert('hello word'!)">Enviar</button>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
